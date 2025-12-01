@@ -1,0 +1,23 @@
+header img {
+    height: 200px;
+    width: auto;
+    border-color: black 5px solid;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    justify-content: center;
+}
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #12343d;
+}
+body {
+    background-image: url("images/background.png");
+    background-repeat: repeat;
+    width: auto;
+    height: 100px;
+}
