@@ -1,6 +1,6 @@
 header img {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 200px;
     border-color: black 5px solid;
 }
 header {
@@ -9,15 +9,32 @@ header {
     font-family: "Trajan Pro Bold", serif;
     font-size: 48px;
     color: white;
+    background-color: #12343d;
 }
 header h1 {
     justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0 0 10px #f0e1c9;
 }
 #container {
-    width: 900px;
     margin: 0 auto;
     background-color: #12343d;
+    max-height: auto;
+    width: 90%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
+#container h1 {
+    font-family: "Garamond", serif;
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
 body {
     background-image: url("images/newbackgroundattempt.png");
     background-repeat: repeat;
@@ -34,4 +51,23 @@ body {
 @font-face {
     font-family: "Garamond";
     src: url("../fonts/garamond/Garamond-Regular.ttf");
+}
+nav {
+    background-color: #f0e1c9;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #12343d;
+    font-family: "Trajan Pro", serif;
+    font-size: 20px;
+}
+nav a:hover {
+    text-decoration: underline;
 }
