@@ -6,9 +6,6 @@ header img {
 header {
     display: flex;
     align-items: center;
-    font-family: "Trajan Pro Bold", serif;
-    font-size: 48px;
-    color: white;
     background-color: #12343d;
 }
 header h1 {
@@ -17,6 +14,9 @@ header h1 {
     left: 50%;
     transform: translateX(-50%);
     text-shadow: 0 0 10px #f0e1c9;
+    font-family: "Trajan Pro Bold", serif;
+    font-size: 48px;
+    color: white;
 }
 #container {
     margin: 0 auto;
@@ -25,20 +25,27 @@ header h1 {
     width: 90%;
     margin-bottom: 0;
     margin-top: 0;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-width: 5px;
+    padding: 10px;
 }
 #container h1 {
     font-family: "Garamond", serif;
-    font-size: 20px;
+    font-size: 50px;
     margin: 0;
     color: white;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+}
+#container p {
+    font-size: 30px;
+    color: white;
+    font-family: "Garamond", serif;
 }
 
 body {
-    background-image: url("images/newbackgroundattempt.png");
-    background-repeat: repeat;
-    background-size: 200px auto;
+    background-color: #12343d;
 }
 @font-face {
     font-family: "Trajan Pro";
@@ -70,4 +77,9 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+#container img {
+     float: right;
+     margin: 0 0 10px 10px; /* top right bottom left spacing */
+     width: 400px;
 }
