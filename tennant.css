@@ -83,3 +83,63 @@ nav a:hover {
      margin: 0 0 10px 10px; /* top right bottom left spacing */
      width: 400px;
 }
+
+
+
+
+
+
+
+
+/* SUBPAGE 2  */
+
+#Mulan {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    position: static;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-width: 5px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+#Mulan h2 {
+    text-align: center;
+    clear: both;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline 2px;
+
+    letter-spacing: 5px;
+}
+
+#armored {
+    width: 450px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 0;
+}
+#mulan-image {
+    width: 800px;
+    height: 300px;
+    background-image: url(images/Mulan\ Revealed.png);
+    background-size: cover;
+    background-position: center 600px;
+    margin: auto;
+}
+
+#Mulan p {
+    position: static;
+    margin-top: 0;
+    font-size: 30px;
+    width: auto;
+    margin-bottom: 15px;
+    color: white;
+    font-family: "Garamond", serif;
+}
